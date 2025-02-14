@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(240, 247, 235);
+}
+.App h2.title{
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgba(74, 123, 75, 0.863);
+    /* background-image: url(/public/images/my.png); */
+    /* background-size: cover; */
+    font-size: 35px;
+    width: 400px;
+    border-radius: 30px;
+    /* color: white; */
+    color: rgb(5, 41, 16);
+}
+.App div.main{
+    width: 70%;
+    margin: auto;
+}
+/* ///////// */
+.Quran{
+    position: relative;
+    height: 220px;
+    width: 500px;
+    background-color: rgb(5, 41, 16);
+    padding: 10px;
+    border-radius: 30px;
+    /* padding: 20px; */
+}
+.Quran h2{
+    background-color: rgb(74, 123, 75);
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(150%, -150%);
+}
+.Quran .Qmain{
+    background-color: rgb(74, 123, 75);
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    margin: 15px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Quran ul{
+    padding-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Quran li{
+    padding: 0px;
+    line-height: 2;
+    font-weight: bold;
+    color:rgb(5, 41, 16) ;
+    cursor: pointer;
+    font-size: 19px;
+    list-style: "💚";
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Quran input{
+    background-color:rgb(183, 239, 184) ;
+    width: 270px;
+    height: 30px;
+    margin:5px 30px;
+    border-color:rgb(183, 239, 184) ;
+    outline: none;
 }
-
-.App-link {
-  color: #61dafb;
+.Quran input:focus{
+        outline: none;
 }
+.Quran button{
+    width: 80px;
+    height: 35px;
+    border-color: rgb(5, 41, 16);
+    background-color: rgb(5, 41, 16);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* ////////////////// */
+.Pray{
+    background-color: rgb(74, 123, 75);
+    height: 280px;
+    width: 300px;
+    position: relative;
+    border-radius: 30px;
+    margin-left: auto;
+}
+.Pray h2{
+    position: absolute;
+    transform: translate(70%, -100%);
+    background-color: rgb(5, 41, 16);
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+}
+.Pray ul.prayName{
+    padding-top: 15px;
+    margin-right: 55px;
+}
+.Pray li{
+    font-weight: bold;
+    color:rgb(5, 41, 16) ;
+    padding-left: 180px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 19px;
+}
+.dstyle{
+    list-style: "💚";
+}
+/* ////////////////// */
+.Task{
+    margin-top: 70px;
+    position: relative;
+    min-height: 220px;
+    width: 500px;
+    background-color: rgb(5, 41, 16);
+    padding: 10px;
+    border-radius: 30px;
+}
+.Task h2{
+    background-color: rgb(74, 123, 75);
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(150%, -150%);
+}
+.Task ul{
+    height: 150px;
+    word-wrap: break-word;
+}
+.Task li{
+    margin-top: 12px;
+    color: white;
+    list-style: none;
+    padding: 8px 15px;
+    width: 80%;
+    cursor: pointer;
+    background-color:rgb(74, 123, 75) ;
+    border-radius: 20px;
+    list-style-position:inside ;
+}
+.Task .diffstyle{
+    list-style: "💚";
+    list-style-position:inside ;
+}
+.Task input{
+    background-color:rgb(183, 239, 184) ;
+    width: 280px;
+    height: 30px;
+    margin:5px 45px;
+    border-color:rgb(183, 239, 184) ;
+    outline: none;
+}
+.Task input:focus{
+        outline: none;
+}
+.Task button{
+    width: 80px;
+    height: 35px;
+    border-color: rgb(74, 123, 75);
+    background-color: rgb(74, 123, 75);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* ///////// */
+.History{
+    margin:50px auto;
+    height: 220px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+.History h2{
+    position: absolute;
+    transform: translate(32%, -100%);
+    background-color: rgb(5, 41, 16);
+    color: white;
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+}
+.History #history{
+    padding: 50px;
+    height: 150px;
+    width: 400px;
+    background-color: rgb(74, 123, 75);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    color: white;
+    outline: none;
+    border-radius: 30px;
+    resize: none;
 }
