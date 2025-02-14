@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/planer-Ramadan/static/css/main.6b2b3ee6.css",
+    "main.js": "/planer-Ramadan/static/js/main.62a3ef16.js",
+    "index.html": "/planer-Ramadan/index.html",
+    "main.6b2b3ee6.css.map": "/planer-Ramadan/static/css/main.6b2b3ee6.css.map",
+    "main.62a3ef16.js.map": "/planer-Ramadan/static/js/main.62a3ef16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b2b3ee6.css",
+    "static/js/main.62a3ef16.js"
+  ]
+}
